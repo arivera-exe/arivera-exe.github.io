@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashley Rivera | About Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+    <script src="https://kit.fontawesome.com/044c5deb3a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- Update with own fonts at some point -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet" />
+
+
+</head>
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <!-- Links to be used for navigation: -->
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#interests" class="nav__link">My Interests</a></li>
+                <li class="nav__item"><a href="#aboutme" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#side_projects" class="nav__link">Side Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="introduction" id="home">
+        <h1 class="section__title section__title--intro">
+            <p>Hi, I'm <strong>Ashley Rivera</strong></p>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            Electrical Engineering @ University of Toronto
+        </p>
+        <img src="img/pfp.jpg" alt="picture" class="intro__img" />
+
+        <div> <p class="intro-links">
+              <a class="intro-link-element" href="https://drive.google.com/file/d/1EXd1nOFTvA9-y7fYFc0LGUYi9Hfxfpqv/view?usp=sharing" target="_blank">Resume</a>  •  <a class="intro-link-element" href="https://github.com/vithraldor" target="_blank">GitHub</a>  • 
+            <a class="intro-link-element" href="https://www.linkedin.com/in/ashley--rivera/" target="_blank">LinkedIn</a>  •  <a class="intro-link-element" href="mailto:ashley.rivera@mail.utoronto.ca">Contact</a>
+        </p>
+        </div>
+    </section>
+
+    <!-- Interests -->
+    <section class="my-interests" id="interests">
+        <h2 class="section__title section__title--interests">
+            <strong>My Interests</strong>
+        </h2>
+        <div class="interests">
+            <div class="interest">
+                <h3>Electronics & Hardware</h3>
+                <p>
+                    I consider myself to be a "hands-on person" - I love building new things. I'm also a tech fanatic, so the idea of building something
+                    using different electronic components fascinates me and inspires me to learn more about electronics.
+                </p>
+            </div> <!-- Interest -->
+
+            <div class="interest">
+                <h3>Signal Processing</h3>
+                <p>
+                    The main reason why I'm interested in this area is because I view it as 'the science behind music'. I'm eager to explore this area more
+                    in-depth and excited to learn about its different applications.
+                </p>
+            </div> <!-- Interest -->
+
+            <div class="interest">
+                <h3>Music</h3>
+                <p>
+                    In my spare time, I enjoy composing music. It's a big influence on my life - a lot of what I do both in school and outside of school
+                    are related to music in one way or another.
+                </p>
+            </div> <!-- Interest -->
+        </div>
+
+        <p class="interests-blurb">I have created a few side projects to further explore my interests. Click on the button below to view them.</p>
+
+        <a href="#side_projects" class="btn">View Side Projects</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="aboutme">
+        <h2 class="section__title section__title--about">About Me</h2>
+        <p class="section__subtitle section__subtitle--about">Engineer, Musician, Community Hero</p>
+
+        <div class="about-me__body">
+            <p>Hi! My name is Ashley, and I'm currently a third-year student at the University of Toronto majoring in electrical engineering.
+            I am currently specializing in electronics and signal processing, and hope to obtain a certificate in music technology as well.</p>
+            <p>In my spare time, I dabble in music creation, coding, and hardware projects.
+            I'm also heavily involved in Toronto's local esports scene, having been dubbed a 'community hero' - read more about my contributions
+            <a href="/esports.html" target="_blank" class="side-project-link">here</a>.</p>
+            <p>As of May 2021, I am currently working as a student volunteer and am working in a small team to redesign UofT electronics labs. I
+            also host events for Toronto Defiant, Toronto's local Overwatch team.</p>
+            <p>For more details about my past experiences, please download my resume using the link below.
+            For examples of past projects I have worked on, scroll down to the next section.</p>
+        </div>
+
+        <img src="img/cotton candy skies.jpg" alt="cn tower" class="about-me-img" />
+
+        <!-- Resume Section -->
+        <div class="resume-btn">
+            <a href="https://drive.google.com/file/d/1EXd1nOFTvA9-y7fYFc0LGUYi9Hfxfpqv/view?usp=sharing" target="_blank" class="btn">View Resume</a>
+        </div>
+    </section>
+
+    <!-- Side Projects -->
+    <section class="side-projects" id="side_projects">
+        <h2 class="section__title section__title--sideprojects">Side Projects</h2>
+        <p class="section__subtitle section__subtitle--sideproj">Hardware</p>
+        <div class="portfolio">
+            <img src="img/harmonizercropped.jpg" alt="test" class="side-project-img"/>
+            <p>
+                <strong>The Harmonizer</strong><br /> Hardware project built using an Arduino hooked up to an LCD display and a speaker. Randomly
+                generates a chord progression, geared towards musicians who aim to develop their improvisational skills.
+                This serves as my introduction to Arduino and working with embedded systems. <br /><br />
+                <a href="https://devpost.com/software/the-harmonizer" target="_blank" class="side-project-link">Devpost (includes video demo and source code)</a>
+            </p>
+        </div>
+
+        <p class="section__subtitle section__subtitle--sideproj">Software</p>
+        <div class="portfolio">
+            <img src="img/googlemaps.png" alt="mappyboi" class="side-project-img" />
+            <p>
+                <strong>Mappyboi</strong><br /> Google Maps-like software designed for a school course, developed in a team of three students.
+                Employs OSM data to visualize 19 different cities and various points of interest (like restaurants or parks).
+                Also makes use of Dijkstra's algorithm in order to devise a travel route between two points. Coded in C++.<br /><br />
+                
+                <i>Source code not available.</i><br />
+            </p>
+
+            <img src="img/stacker.png" alt="stacker" class="side-project-img" />
+            <p>
+                <strong>Stacker</strong><br /> Final project made for a computer organization course. Designed to run using a DE-SoC1 FPGA, utilizing
+                pushbuttons and a VGA display for I/O. This is a remake of the classic arcade game Stacker, where users must stack blocks moving back-and-forth
+                in order to build a tower up to the top of the screen. Coded in C.<br /><br />
+                <a href="https://docs.google.com/document/d/1wO1L5XS_ivhldz2r6a2Xr2HeqBqmxDtcC4p31rxv_TY/edit?usp=sharing" target="_blank" class="side-project-link">
+                Game Manual + Feature Overview</a><br />
+                <i>Source code not available.</i>
+            </p>
+
+            <img src="img/portfolio.jpg" alt="portfolio" class="side-project-img" />
+            <p>
+                <strong>Portfolio Website</strong><br />You are here! This site serves as my intro to front-end web development. Coded in HTML, CSS,
+                and a little bit of JavaScript.<br /><br />
+                <a href="https://github.com/Vithraldor/vithraldor.github.io" target="_blank" class="side-project-link">Source Code</a>
+            </p>
+        </div>
+
+        <p class="section__subtitle section__subtitle--sideproj">Music</p>
+        <p class="music-blurb">I write music in my spare time and post it on YouTube. You can find my channel <a href="https://www.youtube.com/channel/UCklxP_TsH6pL_Mef7oKolOg"
+           target="_blank" class="side-project-link">here</a>. I'm also in a band called Frog's KKafe - check us out 
+        <a href="https://www.youtube.com/channel/UCOCiE_Y0Y7GqW9108MlVrng" target="_blank" class="side-project-link">here</a>.
+        <br />I'll update this section with my latest work and any additional projects I'm working on.</p>
+
+        <div class="portfolio">
+            <iframe class="side-project-img" width="500" height="315" src="https://www.youtube.com/embed/M71ohUImaRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                <strong>Latest Song: </strong>Stratosphere<br /><br />
+            </p>
+
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/H7KbXCkI1KM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>
+                <strong>Skule Stage Band: The Chicken</strong><br /><br />
+                Virtual performance of <i>The Chicken</i>, originally showcased at UofT's 2020 matriculation. In this video, I play the tenor sax - editing was
+                done by me as well.
+            </p>
+
+            <img src="img/podcast.jpg" alt="teaching the teacher podcast" class="side-project-img" />
+            <p>
+                <strong>Teaching the Teacher</strong><br /> My music will be featured in <i>Teaching the Teacher</i>, a podcast series set to debut in Spring
+                2021.<br /><br />
+                <a href="https://www.instagram.com/teachingtheteacher/" target="_blank" class="side-project-link"">Instagram Page</a>
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:ashley.rivera@mail.utoronto.ca" class="footer__link">ashley.rivera@mail.utoronto.ca</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/vithraldor" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/ashley--rivera/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>
