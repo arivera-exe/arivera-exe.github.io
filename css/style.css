@@ -451,6 +451,11 @@ header {
         justify-content: center;
         padding-bottom: 2em;
     }
+
+    .centered-img {
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 /* Footer */
@@ -489,6 +494,7 @@ header {
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .secondary-page-individual p {
@@ -500,3 +506,4 @@ header {
 .img-caption {
     text-align: center;
 }
+
