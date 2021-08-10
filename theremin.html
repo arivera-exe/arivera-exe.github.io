@@ -50,45 +50,51 @@
             My theremin design doesn't rely on the user manipulating electromagnetic fields, but the amount of light that the circuit is exposed to. See
             the schematic below:
         </p>
+    </div>
 
-        <img src="img/thereminschematic.jpg" alt="theremin schematic" class="centered-img" />
-        <p class="img-caption">Schematic of my light-based theremin.</p>
+    <img src="img/thereminschematic.jpg" alt="theremin schematic" class="secondary-page-individual" />
+    <p class="img-caption">Schematic of my light-based theremin.</p>
 
+    <div class="secondary-page-individual">
         <p>
             The circuit is comprised of two parts: an oscillator (square wave generator) and an amplifier used for volume gain. In the oscillator, the
             user is able to modify the frequency of the generated waveform by waving their hands over a feedback photoresistor in the Schmitt Trigger (Figure 1).
             Modifying the volume of the waveform is done in a similar manner: the user can do so by waving their hands over a photoresistor connected to the
             output of the oscillator (Figure 2).
         </p>
+    </div>
 
-        <img src="img/schmitttrigger.jpg" alt="schmitt trigger schematic" class="centered-img" />
-        <p class="img-caption"><b>Figure 1:</b> Schematic of the Schmitt Trigger (frequency control)</p>
+    <img src="img/schmitttrigger.jpg" alt="schmitt trigger schematic" class="secondary-page-individual" />
+    <p class="img-caption"><b>Figure 1:</b> Schematic of the Schmitt Trigger (frequency control)</p>
 
-        <img src="img/volumecontrol.jpg" alt="volume control schematic" class="centered-img" />
-        <p class="img-caption"><b>Figure 2: </b>Schematic of the oscillator and its volume control.</p>
+    <img src="img/volumecontrol.jpg" alt="volume control schematic" class="secondary-page-individual" />
+    <p class="img-caption"><b>Figure 2: </b>Schematic of the oscillator and its volume control.</p>
 
+    <div class="secondary-page-individual">
         <p>
             I also wanted the user to be able to control the volume of the oscillator with a physical knob. To do that, I hooked up the oscillator output
             to an additional amplifier, using a potentiometer as a feedback resistor (Figure 3).
         </p>
+    </div>
 
-        <img src="img/mastervolumecontrol.jpg" alt="master volume control schematic" class="centered-img" />
-        <p class="img-caption"><b>Figure 3: </b>Schematic of the master volume control.</p>
+    <img src="img/mastervolumecontrol.jpg" alt="master volume control schematic" class="secondary-page-individual" />
+    <p class="img-caption"><b>Figure 3: </b>Schematic of the master volume control.</p>
 
+    <div class="secondary-page-individual">
         <p>Below is a video demonstration of the theremin. The output waveform is displayed on the monitor.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xe3hXbbTtB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
-        <iframe width="560" class="centered-img" height="315" src="https://www.youtube.com/embed/xe3hXbbTtB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <br /><br />
+    <div class="secondary-page-individual">
         <p>
             Below is an audio demonstration of the theremin.
             Unfortunately, a design flaw is that the op-amp used for the master volume control does not provide enough current to drive an 8 ohm loudspeaker.
             I have a few plans to fix this issue: use a transistor amplifier for master volume control instead, or implement a push-pull output stage to increase the load
             delivered by the amplifier.
         </p>
-
-        <iframe width="560" class="centered-img" height="315" src="https://www.youtube.com/embed/BO1BxV3p8hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BO1BxV3p8hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    
 
 
     <!-- Footer -->
