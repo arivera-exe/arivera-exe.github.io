@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ashley Rivera | About Me</title>
+    <title>Ashley Rivera | Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
     <script src="https://kit.fontawesome.com/044c5deb3a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -14,197 +14,145 @@
 
 </head>
 <body>
-    <header>
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
-            <ul class="nav__list">
-                <!-- Links to be used for navigation: -->
-                <li class="nav__item"><a href="#index" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#interests" class="nav__link">My Interests</a></li>
-                <li class="nav__item"><a href="#aboutme" class="nav__link">About Me</a></li>
-                <li class="nav__item"><a href="#side_projects" class="nav__link">Side Projects</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="nav">
+        <a href="#home">Home</a>
+        <a href="#aboutme">About Me</a>
+        <a href="#interests">Skills</a>
+        <a href="#side_projects">Projects</a>
+    </div>
 
     <!-- Introduction -->
+    <div class="main">
     <section class="introduction" id="home">
         <h1 class="section__title section__title--intro">
             <p>Hi, I'm <strong>Ashley Rivera</strong></p>
         </h1>
         <p class="section__subtitle section__subtitle--intro">
-            Electrical Engineering @ University of Toronto
+            Electrical Engineer and Hobbyist Musician
         </p>
         <img src="img/pfp.jpg" alt="picture" class="intro__img" />
 
         <div> <p class="intro-links">
-              <a class="intro-link-element" href="https://drive.google.com/file/d/1DxnHpMRg0VGZl7RMiZzuHFsRTuK3Jd-4/view?usp=sharing" target="_blank">Resume</a>  •  <a class="intro-link-element" href="https://github.com/vithraldor" target="_blank">GitHub</a>  • 
-            <a class="intro-link-element" href="https://www.linkedin.com/in/ashley--rivera/" target="_blank">LinkedIn</a>  •  <a class="intro-link-element" href="mailto:ashley.rivera@mail.utoronto.ca">Contact</a>
+            <a class="intro-link-element" href="https://drive.google.com/file/d/1GSkLwLgzTq8L-yG1MsHz9dXPCJ3-t1tr/view?usp=sharing" target="_blank">CV</a>  •  <a class="intro-link-element" href="https://github.com/arivera-exe" target="_blank">GitHub</a>  • 
+            <a class="intro-link-element" href="https://www.linkedin.com/in/ashley--rivera/" target="_blank">LinkedIn</a>  •  <a class="intro-link-element" href="mailto:ashley.rivera0019@gmail.com">Contact</a>
         </p>
         </div>
-    </section>
 
-    <!-- Interests -->
-    <section class="my-interests" id="interests">
-        <h2 class="section__title section__title--interests">
-            <strong>My Interests</strong>
-        </h2>
-        <div class="interests">
-            <div class="interest">
-                <h3>Electronics & Hardware</h3>
-                <p>
-                    I consider myself to be a "hands-on person" - I love building new things. I'm also a tech fanatic, so the idea of building something
-                    using different electronic components fascinates me and inspires me to learn more about electronics.
-                </p>
-            </div> <!-- Interest -->
-
-            <div class="interest">
-                <h3>Signal Processing</h3>
-                <p>
-                    The main reason why I'm interested in this area is because I view it as 'the science behind music'. I'm eager to explore this area more
-                    in-depth and excited to learn about its different applications.
-                </p>
-            </div> <!-- Interest -->
-
-            <div class="interest">
-                <h3>Music</h3>
-                <p>
-                    In my spare time, I enjoy composing music. It's a big influence on my life - a lot of what I do both in school and outside of school
-                    are related to music in one way or another.
-                </p>
-            </div> <!-- Interest -->
+        <div class="projects-btn">
+            <a href="#side_projects" class="btn">Jump to My Projects</a>
         </div>
-
-        <p class="interests-blurb">I have created a few side projects to further explore my interests. Click on the button below to view them.</p>
-
-        <a href="#side_projects" class="btn">View Side Projects</a>
     </section>
 
     <!-- About Me -->
     <section class="about-me" id="aboutme">
-        <h2 class="section__title section__title--about">About Me</h2>
-        <p class="section__subtitle section__subtitle--about">Engineer, Musician, Community Hero</p>
-
+        <h2 class="section__title section__title--about">Hello!</h2>
         <div class="about-me__body">
-            <p>Hi! My name is Ashley, and I'm currently a third-year student at the University of Toronto majoring in electrical engineering.
-            I am currently specializing in electronics and signal processing, and hope to obtain a certificate in music technology as well.</p>
-            <p>In my spare time, I dabble in music creation, hardware projects, and a little bit of coding.
-            I'm also heavily involved in Toronto's local esports scene, having been dubbed a 'community hero' - read more about my contributions
-            <a href="/esports.html" target="_blank" class="side-project-link">here</a>.</p>
-            <p>In May 2022, I will be joining AMD's Markham campus as an analog mixed-signal design intern, where I will help design circuits for power regulation
-            in computer chips. In the past, I worked alongside Prof. Khoman Phang to redesign electronics labs for ECE231, an introductory electronics course at the University
-            of Toronto.</p>
-            <p>Outside of school, I work with Toronto Defiant, a professional Overwatch team. I moderate its Discord server and host community events, such as
-            game nights and tournaments.</p>
-            <p>For more details about my past experiences, please download my resume using the link below.
-            For examples of past projects I have worked on, scroll down to the next section.</p>
+            <p>I'm Ashley, an aspiring circuit design engineer and recent electrical engineering graduate from the University of Toronto. During my undergraduate studies, I specialized in analog/digital electronics, semiconductor physics, and obtained a certificate in music technology.</p>
+            <p>I was drawn to circuit design after learning about the theory and implementation of low-pass, high-pass, and bandpass filters. I was initially introduced to these three concepts while producing music as a teenager. Learning about how these filters actually worked piqued my interest in circuit design, and the rest is history.</p>
+            <p>I am always looking for new ways to innovate within the semiconductor industry, and am particularly keen on exploring circuit design for quantum computing and photonics applications.</p>
+            <p>For more information about my professional experiences, please view my CV using the link below.</p>
         </div>
 
         <img src="img/cotton candy skies.jpg" alt="cn tower" class="about-me-img" />
 
         <!-- Resume Section -->
         <div class="resume-btn">
-            <a href="https://drive.google.com/file/d/1DxnHpMRg0VGZl7RMiZzuHFsRTuK3Jd-4/view?usp=sharing" target="_blank" class="btn">View Resume</a>
+            <a href="https://drive.google.com/file/d/1GSkLwLgzTq8L-yG1MsHz9dXPCJ3-t1tr/view?usp=sharing" target="_blank" class="btn">View CV</a>
         </div>
     </section>
 
+ <!-- Interests -->
+ <section class="my-interests" id="interests">
+    <h2 class="section__title section__title--interests">
+        <strong>Skills</strong>
+    </h2>
+    <div class="interests">
+        <div class="interest">
+        </br>
+            <h3 align="center">Analog Design</h3>
+            <ul>
+                <li>Tapeout experience in various process nodes:</li>
+                <ul>
+                    <li>GlobalFoundries 22nm FDSOI</li>
+                    <li>Multiple TSMC submicron technologies (ex: TSMC N5)</li>
+                    <ul>
+                        <li>Projects: Radeon 7900 XTX, 7900 XT, 7800 XT, 7700 XT GPUs</li>
+                    </ul>
+                </ul>
+                <li>Proficiency in transient, AC, and s-parameter testbench setup and simulation</li>
+            </ul>
+        </div>
+
+        <div class="interest">
+        </br>
+            <h3 align="center">Others</h3>
+            <ul>
+                <li>Basic soldering skills</li>
+                <li>Breadboard prototyping</li>
+                <li>Scripting experience in Perl, Python, csh, bash</li>
+                <li>Application programming experience in C++, C, Python, Assembly</li>
+                <li>Music production and composition knowledge</li>
+            </ul>
+        </div>
+</section>
+
     <!-- Side Projects -->
     <section class="side-projects" id="side_projects">
-        <h2 class="section__title section__title--sideprojects">Side Projects</h2>
-        <p class="section__subtitle section__subtitle--sideproj">Hardware</p>
+        <h2 class="section__title section__title--sideprojects">Past Projects</h2>
         <div class="portfolio">
+            <img src="img/capstone_toplevel.png" alt="capstone" class="side-project-img"/>
+            <p>
+                <strong>160 GBaud 2x Time Interleaved ADC Front-End</strong><br/><br/> A 1:2 analog demultiplexer capable of operating at a symbol rate of 160 GBaud/s with an SNDR of 42 dB,
+                an energy-to-bit efficiency of 0.15 pJ/bit, and a power consumption of 47 mW.
+                <br /><br />
+                Designed and fabricated using GlobalFoundries' 22nm FDSOI process.
+                <br /><br />
+                <a href="https://drive.google.com/file/d/1mWb23Z0JQqHSmZsJErhYRiTR_v-l0kaD/view?usp=sharing" target="_blank" class="side-project-link">Capstone Design Fair Poster</a>
+            </p>
+
             <img src="img/theremin.jpg" alt="test" class="side-project-img" />
             <p>
-                <strong>Light-Based Theremin</strong><br /> A two-part analog circuit that resembles a theremin, a musical instrument played
+                <strong>Light-Based Theremin</strong><br /> <br/>A two-part analog circuit that resembles a theremin, a musical instrument played
                 by waving your hands. The design consists of an oscillator (square wave generator) and an additional amplifier for master volume
-                control. Currently being adapted for an ECE231 lab at the University of Toronto.<br /><br />
+                control. Served as the foundation for the ECE231 and ECE360 op-amp labs at the University of Toronto.<br /><br />
                 <a href="theremin.html" target="_blank" class="side-project-link">More Information + Design Steps (Schematics included)</a>
             </p>
 
             <img src="img/harmonizercropped.jpg" alt="test" class="side-project-img" />
             <p>
-                <strong>The Harmonizer</strong><br /> Hardware project built using an Arduino hooked up to an LCD display and a speaker. Randomly
+                <strong>The Harmonizer</strong><br /><br/> Hardware project built using an Arduino hooked up to an LCD display and a speaker. Randomly
                 generates a chord progression, geared towards musicians who aim to develop their improvisational skills.
                 This serves as my introduction to Arduino and working with embedded systems. <br /><br />
                 <a href="https://devpost.com/software/the-harmonizer" target="_blank" class="side-project-link">Devpost (includes video demo and source code)</a>
             </p>
         </div>
 
-        <p class="section__subtitle section__subtitle--sideproj">Software</p>
-        <div class="portfolio">
-            <img src="img/googlemaps.png" alt="mappyboi" class="side-project-img" />
-            <p>
-                <strong>Mappyboi</strong><br /> Google Maps-like software designed for a school course, developed in a team of three students.
-                Employs OSM data to visualize 19 different cities and various points of interest (like restaurants or parks).
-                Also makes use of Dijkstra's algorithm in order to devise a travel route between two points. Coded in C++.<br /><br />
-
-                <i>Source code not available.</i><br />
-            </p>
-
-            <img src="img/stacker.png" alt="stacker" class="side-project-img" />
-            <p>
-                <strong>Stacker</strong><br /> Final project made for a computer organization course. Designed to run using a DE-SoC1 FPGA, utilizing
-                pushbuttons and a VGA display for I/O. This is a remake of the classic arcade game Stacker, where users must stack blocks moving back-and-forth
-                in order to build a tower up to the top of the screen. Coded in C.<br /><br />
-                <a href="https://docs.google.com/document/d/1wO1L5XS_ivhldz2r6a2Xr2HeqBqmxDtcC4p31rxv_TY/edit?usp=sharing" target="_blank" class="side-project-link">
-                    Game Manual + Feature Overview
-                </a><br />
-                <i>Source code not available.</i>
-            </p>
-
-            <img src="img/portfolio.jpg" alt="portfolio" class="side-project-img" />
-            <p>
-                <strong>Portfolio Website</strong><br />You are here! This site serves as my intro to front-end web development. Coded in HTML, CSS,
-                and a little bit of JavaScript.<br /><br />
-                <a href="https://github.com/Vithraldor/vithraldor.github.io" target="_blank" class="side-project-link">Source Code</a>
-            </p>
-        </div>
-
-        <p class="section__subtitle section__subtitle--sideproj">Music</p>
+        <h3 class="section__subtitle section__subtitle--sideproj">Music</h3>
         <p class="music-blurb">
             For a full rundown of all of the music I've made, visit my music portfolio site
             <a href="https://vithmakesmusic.carrd.co/" target="_blank" class="side-project-link">here</a>.
+        </p>
 
+        <div class="music-portfolio">
+            <div class="music-portfolio-element">
+                <h4>Latest Release</h4>
+                <iframe width="450" height="315" src="https://www.youtube.com/embed/d8Mv_pTbWuM?si=Wtx3mA8hJCS4AvZ5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
 
-        <div class="portfolio">
-            <iframe width="500" height="315" src="https://www.youtube.com/embed/3n1cr4ywTpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>
-                <strong>Latest Song: </strong>Instant Crush v2.0<br /><br />
-            </p>
-
-            <iframe width="500" height="315" src="https://www.youtube.com/embed/VuaVKfx0sy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>
-                <strong>Seasons</strong><br /><br />
-                During the summer of 2021, I collaborated alongside two other musicians to record <i>Seasons</i>, an album expressing our feelings about the COVID-19 pandemic.
-                </br></br>
-                <a href="https://seasonsalbum.ca" target="_blank" class="side-project-link">Website </a> | <a href="https://open.spotify.com/artist/2coTyiQDfgQ3pmcMj6PdpQ" target="_blank" class="side-project-link">Spotify</a>
-            </p>
-
-            <iframe width="500" height="315" src="https://www.youtube.com/embed/H7KbXCkI1KM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>
-                <strong>Skule Stage Band: The Chicken</strong><br /><br />
-                Virtual performance of <i>The Chicken</i>, originally showcased at UofT's 2020 matriculation. In this video, I play the tenor sax - editing was
-                done by me as well.
-            </p>
-
-            <img src="img/podcast.jpg" alt="teaching the teacher podcast" class="side-project-img" />
-            <p>
-                <strong>Teaching the Teacher</strong><br /> My music will be featured in <i>Teaching the Teacher</i>, a podcast series set to debut in Spring
-                2021.<br /><br />
-                <a href="https://www.instagram.com/teachingtheteacher/" target="_blank" class="side-project-link" ">Instagram Page</a> | <a href="https://open.spotify.com/show/6pBnkqXnERrwvMyrws7Ug7" target="_blank" class="side-project-link">Spotify</a>
-            </p>
+            <div class="music-portfolio-element">
+                <h4>Featured Release</h4>
+                <iframe width="450" height="315" src="https://www.youtube.com/embed/5PC4TGZnnlw?si=hbV3XIXCFqvpvNZ6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </div>
-
+        
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <a href="mailto:ashley.rivera@mail.utoronto.ca" class="footer__link">ashley.rivera@mail.utoronto.ca</a>
+        <a href="mailto:ashley.rivera0019@gmail.com" class="footer__link">ashley.rivera0019@gmail.com</a>
         <ul class="social-list">
             <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com/vithraldor" target="_blank">
+                <a class="social-list__link" href="https://github.com/arivera-exe" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
             </li>
@@ -218,7 +166,7 @@
     </footer>
 
     <script src="js/index.js"></script>
-
-
+</div>
 </body>
+
 </html>
